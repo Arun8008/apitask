@@ -11,19 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
 .row{
   display: flex;
+  
 }
-
+.col{
+  width: 50%;
+}
 .icons{
   display: flex;
 }
 th{
-  background-color: aqua;
+  background-color: rgb(149, 189, 185);
 }
-
 .addbtn{
-  margin: 20px;
-  padding: 10px 40px;
-  font-size: 20px;
+  text-align: center;
 }
